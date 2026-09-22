@@ -121,5 +121,12 @@
   "Copy permalink": "Скопировать ссылку",
   "Permalink copied.": "Ссылка скопирована",
   "Empty": "Пустой узел",
-  "Group's name": "Имя группы"
+  "Group's name": "Имя группы",
+  "New suite": "Новый набор",
+  "Duplicate suite": "Дублировать набор",
+  "Rename suite": "Переименовать набор",
+  "Delete suite": "Удалить набор",
+  "Suite name": "Название набора",
+  "copy": "копия",
+  "You cannot delete the last test suite.": "Нельзя удалить последний набор тестов."
 }

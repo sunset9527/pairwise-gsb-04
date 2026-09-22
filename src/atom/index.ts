@@ -8,3 +8,5 @@ export * from './look-around'
 export * from './remove'
 export * from './undo'
 export * from './group'
+
+export * from './test-suites'

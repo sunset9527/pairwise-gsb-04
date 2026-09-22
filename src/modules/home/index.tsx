@@ -17,10 +17,10 @@ import {
   SEARCH_PARAM_REGEX,
   SEARCH_PARAM_TESTS,
   STORAGE_GRAPH_TIP_VISIBLE,
-  STORAGE_TEST_CASES,
 } from '@/constants'
 import {
   astAtom,
+  setActiveSuiteCasesAtom,
   clearSelectedAtom,
   selectedIdsAtom,
   updateFlagsAtom,
@@ -40,7 +40,7 @@ function Home() {
   const { toast } = useToast()
   const [, copy] = useCopyToClipboard()
 
-  const [, setCases] = useLocalStorage<string[]>(STORAGE_TEST_CASES, [''])
+  const setActiveSuiteCases = useSetAtom(setActiveSuiteCasesAtom)
   const [graphTipVisible, setGraphTipVisible] = useLocalStorage<boolean>(STORAGE_GRAPH_TIP_VISIBLE, true)
   const shouldGenAst = useRef(true)
   const shouldParseRegex = useRef(true)
@@ -67,7 +67,7 @@ function Home() {
         const cases = JSON.parse(searchParams.get(SEARCH_PARAM_TESTS) || '')
         if (Array.isArray(cases) && cases.length > 0) {
           setEditorDefaultTab('test')
-          setCases(cases)
+          setActiveSuiteCases(cases)
         }
       } catch (error) {
         console.error(error)

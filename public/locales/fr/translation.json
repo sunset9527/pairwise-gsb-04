@@ -113,5 +113,12 @@
   "Copy permalink": "Copier le lien permanent",
   "Permalink copied.": "Lien copié.",
   "Empty": "Vide",
-  "Group's name": "Nom du groupe"
+  "Group's name": "Nom du groupe",
+  "New suite": "Nouvelle suite",
+  "Duplicate suite": "Dupliquer la suite",
+  "Rename suite": "Renommer la suite",
+  "Delete suite": "Supprimer la suite",
+  "Suite name": "Nom de la suite",
+  "copy": "copie",
+  "You cannot delete the last test suite.": "Vous ne pouvez pas supprimer la dernière suite de tests."
 }

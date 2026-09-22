@@ -121,5 +121,12 @@
   "Copy permalink": "Kalıcı bağlantıyı kopyala",
   "Permalink copied.": "Kalıcı bağlantı kopyalandı.",
   "Empty": "Boş",
-  "Group's name": "Grup adı"
+  "Group's name": "Grup adı",
+  "New suite": "Yeni paket",
+  "Duplicate suite": "Paketi çoğalt",
+  "Rename suite": "Paketi yeniden adlandır",
+  "Delete suite": "Paketi sil",
+  "Suite name": "Paket adı",
+  "copy": "kopya",
+  "You cannot delete the last test suite.": "Son test paketi silinemez."
 }

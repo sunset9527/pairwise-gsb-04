@@ -122,5 +122,12 @@
   "Copy permalink": "パーマリンクをコピー",
   "Permalink copied.": "パーマリンクがコピーされました",
   "Empty": "空",
-  "Group's name": "グループ名"
+  "Group's name": "グループ名",
+  "New suite": "新しいスイート",
+  "Duplicate suite": "スイートを複製",
+  "Rename suite": "スイート名を変更",
+  "Delete suite": "スイートを削除",
+  "Suite name": "スイート名",
+  "copy": "コピー",
+  "You cannot delete the last test suite.": "最後のテストスイートは削除できません。"
 }
